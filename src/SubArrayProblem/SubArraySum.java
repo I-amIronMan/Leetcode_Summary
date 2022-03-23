@@ -31,7 +31,7 @@ public class SubArraySum {
         return res;
     }
 
-    // 前缀和数组使用一个变量代替，状态压缩
+    // 优化：前缀和数组使用一个变量代替，状态压缩
     public int subarraySum1(int[] nums, int k) {
         HashMap<Integer, Integer> map = new HashMap<>();
         map.put(0, 1);
