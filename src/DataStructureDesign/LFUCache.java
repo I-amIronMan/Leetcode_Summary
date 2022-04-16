@@ -206,10 +206,4 @@ public class LFUCache {
         }
     }
 
-    public static void main(String[] args) {
-        LFU lfu = new LFU(0);
-        lfu.put(0, 0);
-        lfu.get(0);
-        System.out.println(lfu.size);
-    }
 }
