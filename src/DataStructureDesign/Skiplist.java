@@ -11,6 +11,10 @@ class SkipListNode {
     public int val;
     public ArrayList<SkipListNode> nexts;
 
+    public SkipListNode() {
+        this.nexts = new ArrayList<>();
+    }
+
     public SkipListNode(int val) {
         this.val = val;
         this.nexts = new ArrayList<>();
@@ -19,13 +23,14 @@ class SkipListNode {
 
 public class Skiplist {
     private static final double PROBABILITY = 0.5;
+    private static final int MAX_LEVEL = 31;
     private SkipListNode head;
     private int size;
     private int maxLevel;
 
     public Skiplist() {
-        this.head = new SkipListNode(-1);
-        head.nexts.add(null);
+        this.head = new SkipListNode();
+        this.head.nexts.add(null);
         this.size = 0;
         this.maxLevel = 0;
     }
@@ -55,6 +60,9 @@ public class Skiplist {
         int newNodeLevel = 0;
         while (Math.random() < PROBABILITY) {
             newNodeLevel++;
+            if (newNodeLevel == MAX_LEVEL) {
+                break;
+            }
         }
         while (newNodeLevel > maxLevel) {
             head.nexts.add(null);
