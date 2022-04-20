@@ -73,6 +73,7 @@ public class CalcEquation {
             for (Edge edge : a.edges) {
                 if (edge.to == b) {
                     edgeaTob = edge;
+                    break;
                 }
             }
             if (aF != bF) {
