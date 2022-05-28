@@ -15,3 +15,10 @@ Summary of some problem in Leetcode.
 + [O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
 + [O(1) 时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
 + [设计跳表](https://leetcode-cn.com/problems/design-skiplist/)
+#### 子数组
+#### 子序列
+#### 子串
+#### 并查集
++ [除法求值](https://leetcode-cn.com/problems/evaluate-division/)
++ [岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)
++ [移除最多的同行或同列石头](https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column/)
