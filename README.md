@@ -4,6 +4,7 @@ Summary of some problem in Leetcode.
 + [组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii/)
 + [组合](https://leetcode-cn.com/problems/combinations/)
 + [单词搜索](https://leetcode.cn/problems/word-search/)
++ [递增子序列](https://leetcode.cn/problems/increasing-subsequences/)
 + [单词搜索Ⅱ](https://leetcode.cn/problems/word-search-ii/)
 + [全排列II](https://leetcode-cn.com/problems/permutations-ii/)
 + [删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses/)
@@ -16,6 +17,7 @@ Summary of some problem in Leetcode.
 + [O(1) 时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
 + [设计跳表](https://leetcode-cn.com/problems/design-skiplist/)
 #### 子数组
++ [最长重复子数组](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/)
 + [最短无序连续子数组](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/)
 + [数组中的最长山脉](https://leetcode-cn.com/problems/longest-mountain-in-array/)
 + [乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)
@@ -34,6 +36,7 @@ Summary of some problem in Leetcode.
 + [子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)
 #### 子序列
 + [不同的子序列II](https://leetcode-cn.com/problems/distinct-subsequences-ii/)
++ [最长和谐子序列](https://leetcode-cn.com/problems/longest-harmonious-subsequence/)
 + [最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
 + [最长定差子序列](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference/)
 + [最大子序列交替和](https://leetcode-cn.com/problems/maximum-alternating-subsequence-sum/)
