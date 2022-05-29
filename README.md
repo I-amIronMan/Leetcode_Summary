@@ -8,6 +8,7 @@ Summary of some problem in Leetcode.
 + [单词搜索Ⅱ](https://leetcode.cn/problems/word-search-ii/)
 + [全排列II](https://leetcode-cn.com/problems/permutations-ii/)
 + [删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses/)
++ [复原IP地址](https://leetcode.cn/problems/restore-ip-addresses/)
 + [子集II](https://leetcode-cn.com/problems/subsets-ii/)
 #### 数据结构设计
 + [全O(1)的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)
