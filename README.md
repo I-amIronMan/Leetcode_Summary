@@ -19,6 +19,7 @@ Summary of some problem in Leetcode.
 + [O(1) 时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
 + [设计跳表](https://leetcode-cn.com/problems/design-skiplist/)
 #### 子数组
++ [连续的子数组和](https://leetcode.cn/problems/continuous-subarray-sum/)
 + [最长重复子数组](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/)
 + [最短无序连续子数组](https://leetcode.cn/problems/shortest-unsorted-continuous-subarray/)
 + [数组中的最长山脉](https://leetcode-cn.com/problems/longest-mountain-in-array/)
