@@ -34,6 +34,7 @@ Summary of some problem in Leetcode.
 + [和至少为 K 的最短子数组](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)
 + [子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/)
 + [和为k的子数组](https://leetcode-cn.com/problems/subarray-sum-equals-k/)
++ [和可被K整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k/)
 + [乘积小于K的子数组](https://leetcode-cn.com/problems/subarray-product-less-than-k/)
 + [K个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/)
 + [子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)
