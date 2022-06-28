@@ -9,6 +9,7 @@ public class RemoveStones {
      * 移除最多的同行或同列石头
      * 测试链接：https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column/
      */
+    // 方法1
     public class UnionFind {
         private Map<String, String> fatherMap;
         private Map<String, Integer> rankMap;
@@ -53,7 +54,7 @@ public class RemoveStones {
         }
     }
 
-    public int removeStones(int[][] stones) {
+    public int removeStones1(int[][] stones) {
         int N = stones.length;
         int row = 0;
         int col = 0;
@@ -81,5 +82,79 @@ public class RemoveStones {
             }
         }
         return N - uf.size();
+    }
+
+    // 方法2
+    public int removeStones2(int[][] stones) {
+        int n = stones.length;
+        HashMap<Integer, Integer> rowPre = new HashMap<>();
+        HashMap<Integer, Integer> colPre = new HashMap<>();
+        UnionFindSet uf = new UnionFindSet(n);
+        for (int i = 0; i < n; i++) {
+            int x = stones[i][0];
+            int y = stones[i][1];
+            if (!rowPre.containsKey(x)) {
+                rowPre.put(x, i);
+            } else {
+                uf.union(i, rowPre.get(x));
+            }
+            if (!colPre.containsKey(y)) {
+                colPre.put(y, i);
+            } else {
+                uf.union(i, colPre.get(y));
+            }
+        }
+        return n - uf.sets();
+    }
+
+    public class UnionFindSet {
+
+        public int[] father;
+        public int[] size;
+        public int[] help;
+        public int sets;
+
+        public UnionFindSet(int n) {
+            father = new int[n];
+            size = new int[n];
+            help = new int[n];
+            for (int i = 0; i < n; i++) {
+                father[i] = i;
+                size[i] = 1;
+            }
+            sets = n;
+        }
+
+        private int find(int i) {
+            int hi = 0;
+            while (i != father[i]) {
+                help[hi++] = i;
+                i = father[i];
+            }
+            while (hi != 0) {
+                father[help[--hi]] = i;
+            }
+            return i;
+        }
+
+        public void union(int i, int j) {
+            int fi = find(i);
+            int fj = find(j);
+            if (fi != fj) {
+                if (size[fi] >= size[fj]) {
+                    father[fj] = fi;
+                    size[fi] += size[fj];
+                } else {
+                    father[fi] = fj;
+                    size[fj] += size[fi];
+                }
+                sets--;
+            }
+        }
+
+        public int sets() {
+            return sets;
+        }
+
     }
 }
