@@ -12,12 +12,12 @@ Summary of some problem in Leetcode.
 + [解数独](https://leetcode.cn/problems/sudoku-solver/) -> [SolveSudoku](https://github.com/Sulley-Boo/Leetcode_Summary/blob/master/src/BacktrackingProblem/SolveSudoku.java)
 + [子集II](https://leetcode-cn.com/problems/subsets-ii/) -> [SubsetsWithDup](https://github.com/Sulley-Boo/Leetcode_Summary/blob/master/src/BacktrackingProblem/SubsetsWithDup.java)
 #### 数据结构设计
-+ [全O(1)的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/)
-+ [LFU缓存](https://leetcode-cn.com/problems/lfu-cache/)
-+ [LRU 缓存](https://leetcode-cn.com/problems/lru-cache/)
-+ [O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/)
-+ [O(1) 时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
-+ [设计跳表](https://leetcode-cn.com/problems/design-skiplist/)
++ [全O(1)的数据结构](https://leetcode-cn.com/problems/all-oone-data-structure/) -> [AllOne](https://github.com/Sulley-Boo/Leetcode_Summary/blob/master/src/DataStructureDesign/AllOne.java)
++ [LFU缓存](https://leetcode-cn.com/problems/lfu-cache/) -> [LFUCache](https://github.com/Sulley-Boo/Leetcode_Summary/blob/master/src/DataStructureDesign/LFUCache.java)
++ [LRU 缓存](https://leetcode-cn.com/problems/lru-cache/) -> [LRUCache](https://github.com/Sulley-Boo/Leetcode_Summary/blob/master/src/DataStructureDesign/LRUCache.java)
++ [O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) -> [RandomizedCollection](https://github.com/Sulley-Boo/Leetcode_Summary/blob/master/src/DataStructureDesign/RandomizedCollection.java)
++ [O(1) 时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) -> [RandomizedSet](https://github.com/Sulley-Boo/Leetcode_Summary/blob/master/src/DataStructureDesign/RandomizedSet.java)
++ [设计跳表](https://leetcode-cn.com/problems/design-skiplist/) -> [Skiplist](https://github.com/Sulley-Boo/Leetcode_Summary/blob/master/src/DataStructureDesign/Skiplist.java)
 #### 子数组
 + [连续的子数组和](https://leetcode.cn/problems/continuous-subarray-sum/)
 + [最长重复子数组](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/)
